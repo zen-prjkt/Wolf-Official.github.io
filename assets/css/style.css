@@ -1479,7 +1479,6 @@ pointer-events: none;
 {
     font-size: 1em;
     color: #FF8401;
-    background: #f5f5ff;
     font-weight: 300;
 }
 .containerzz .cardz .contentz a
@@ -1489,7 +1488,7 @@ pointer-events: none;
     padding: 8px 20px;
     margin-top: 15px;
     background: #FE7817;
-    color: #fff;
+    color: #000;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
