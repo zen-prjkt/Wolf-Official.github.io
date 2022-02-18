@@ -1472,13 +1472,13 @@ pointer-events: none;
 .containerzz .cardz .contentz h3
 {
     font-size: 1.8em;
-    color: #fff;
+    color: #FF8401;
     z-index: 1;
 }
 .containerzz .cardz .contentz p
 {
     font-size: 1em;
-    color: #fff;
+    color: #FF8401;
     font-weight: 300;
 }
 .containerzz .cardz .contentz a
@@ -1487,7 +1487,7 @@ pointer-events: none;
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: #fff;
+    background: #FE7817;
     color: #000;
     border-radius: 20px;
     text-decoration: none;
