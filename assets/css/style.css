@@ -1417,3 +1417,171 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+/* ==========================================================================================================
+									DOWNLOAD PAGE
+   ========================================================================================================== */
+.containerzz
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.containerzz .cardz
+{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin: 45px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+.containerzz .cardz .contentz
+{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(0px);
+    transition: 0.5s;
+}
+.contentz .cardz .contentz
+{
+    transform: translateY(0px);
+}
+.containerzz .cardz .contentz h2
+{
+position: absolute;
+top: -80px;
+right: 30px;
+font-size: 3em;
+font-weight: 600;
+color: rgba(138, 138, 138, 0.05);
+pointer-events: none;
+}
+.containerzz .cardz .contentz h3
+{
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+.containerzz .cardz .contentz p
+{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.containerzz .cardz .contentz a
+{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow:  0 5px 15px;
+}
+
+.wapz{
+  font-size: 5rem;
+  margin-bottom: 10rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  -webkit-animation: fadein 5s;
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s;
+         -o-animation: fadein 5s;
+            animation: fadein 5s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 5; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 6; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 6; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 6; }
+}
+
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 6; }
+}
+
+.blurred-wrapperrz{
+  height: 100vh;
+  background: url("../img/bg-2.jpg") center/cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+  overflow: hidden;
+  animation: hue 10s infinite alternate;
+}
+
+.blurred-wrapperrz::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(2rem);
+  transform: scale(1.15);
+}
+
+.blurred-wrapperrz::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(2rem);
+  transform: scale(1.15);
+}
+
+/* Custom-Scroll-Bar */
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b6e3e8),to(#3260fb));
+  box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-track{
+  background: linear-gradient(to right, #201c29, #201c29 0.8px, #100e17 1px ,#100e17);
